@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="container">
+        <label for="dob" class="text-2xl font-bold italic">Your Date of Birth</label>
+        <input type="date" name="dob-name" id="dob" class="text-xl border-2 rounded-lg p-2 m-5">
+        <p class="desc">Your Age is : </p>
+        <p class="age">
+            <span id="years"></span> years
+            <span id="months"></span> months
+            <span id="days"></span> days
+        </p>
+        <p class="error text-[#3b8132] font-bold italic">Welcome Time Traveller</p>
+    </div>
+    <script src="./app.js" type="text/javascript"></script>
+</body>
+</html>

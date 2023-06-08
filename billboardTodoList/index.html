@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Board TODO List</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/8aa5cbb25f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="bg-[#242B2E] min-h-[100vh] flex flex-col items-center p-2">
+        <!-- header -->
+        <div class="text-5xl font-bold italic text-white flex justify-between w-full">
+            <div class="md:w-1/3 flex justify-center sm:w-2/3">
+                <span class="text-[#5A20CB]">TODO</span>LIST
+            </div>
+            <div class="md:w-1/3 sm:w-1/3">
+                <button id="addnewlist" class="w-full h-full text-end"><i class="fa-solid fa-plus fa-md rounded-full bg-white p-2" style="color: #5A20CB;"></i></button>
+            </div>
+        </div>        
+        <!-- display -->
+        <div id="display" class="flex flex-row flex-wrap justify-evenly items-center w-full mt-5 min-h-[70vh]">
+            <h1 class="text-3xl text-white font-bold italic">Empty</h1>            
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
